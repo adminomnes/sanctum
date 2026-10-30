@@ -25,3 +25,4 @@ ENV NODE_ENV=production
 ENV PORT=10000
 
 CMD ["npm", "run", "server:start"]
+

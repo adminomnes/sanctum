@@ -4,7 +4,7 @@
 // 2. LocalStorage override ('sanctum_api_url') for dynamic configuration
 // 3. Relative path fallback ('') for same-origin proxy
 
-const ENV_API_URL = (import.meta.env.VITE_API_URL as string) || '';
+const ENV_API_URL = (import.meta.env.VITE_API_URL as string) || 'https://sanctum-9t87.onrender.com';
 
 export const getApiBaseUrl = (): string => {
   if (typeof window !== 'undefined') {

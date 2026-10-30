@@ -1,2 +1,6 @@
+# Proxy API requests to Render backend
+/api/* https://sanctum-9t87.onrender.com/api/:splat 200
+
 # SPA fallback for Cloudflare Pages
 /* /index.html 200
+
